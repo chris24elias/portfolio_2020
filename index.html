@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Porfolio</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="bg-image"></div>
+      <div class="bg-text">
+        <h1>Chris Elias</h1>
+        <p>
+          Front End Developer
+        </p>
+      </div>
+    </header>
+    <main class="container">
+      <section class="card about" data-aos="fade-right">
+        <div class="heading">About</div>
+        <div class="specials">
+          <div class="special">
+            <i class="fas fa-window-maximize fa-3x"></i>
+            <p>Web</p>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3 | SASS</li>
+              <li>Javascript</li>
+              <li>React | Redux</li>
+            </ul>
+          </div>
+          <div class="special">
+            <i class="fas fa-mobile-alt fa-3x"></i>
+            <p>Mobile</p>
+            <ul>
+              <li>React Native</li>
+              <li>TypeScript</li>
+              <li>iOS | Android</li>
+              <li>Swift | Java</li>
+            </ul>
+          </div>
+          <div class="special">
+            <i class="fas fa-server fa-3x"></i>
+            <p>Server</p>
+            <ul>
+              <li>Node JS</li>
+              <li>Express</li>
+              <li>MySQL | Mongo DB</li>
+              <li>Python</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="card skills" data-aos="fade-left">
+        <div class="bio">
+          <img src="img/portrait.jpg" alt="" class="bio-image" />
+          <div class="bio-text">
+            <h4>Let me tell you a few things...</h4>
+            <p>
+              Currently I am a software developer working for Genius Plaza. I am
+              passionate about learning and always finding new ways of improving
+              myself.
+            </p>
+          </div>
+        </div>
+        <div class="bars">
+          <div class="bar">
+            <div class="bar-fill html">
+              <div class="bar-label">HTML</div>
+            </div>
+            <div class="bar-value">
+              <span>60%</span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="bar-fill css">
+              <div class="bar-label">CSS</div>
+            </div>
+            <div class="bar-value">
+              <span>60%</span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="bar-fill react">
+              <div class="bar-label">React</div>
+            </div>
+            <div class="bar-value">
+              <span>90%</span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="bar-fill rn">
+              <div class="bar-label">React Native</div>
+            </div>
+            <div class="bar-value">
+              <span>90%</span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="bar-fill js">
+              <div class="bar-label">Javascript</div>
+            </div>
+            <div class="bar-value">
+              <span>90%</span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="bar-fill js">
+              <div class="bar-label">TypeScript</div>
+            </div>
+            <div class="bar-value">
+              <span>90%</span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="bar-fill node">
+              <div class="bar-label">Node.js</div>
+            </div>
+            <div class="bar-value">
+              <span>90%</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="card projects" data-aos="fade-right">
+        <div class="projects-heading heading">Projects</div>
+        <div class="items">
+          <div class="item">
+            <div class="item-image">
+              <img src="img/items/instagram_clone.png" alt="" />
+            </div>
+            <div class="item-text">
+              <div class="item-text-wrap">
+                <p class="item-text-category">React Native</p>
+                <h2 class="item-text-title">Instragram Clone</h2>
+                <a href="https://github.com/chris24elias/Social-App-Demo"><div class="button" >Learn More</div></a>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+
+      <div class="buttons">
+        <a href="https://www.linkedin.com/in/christopher-elias">
+          <div class="icon-container" id="icon-2">
+            <i class="fab fa-linkedin"></i>
+          </div>
+        </a>
+        <a href="https://github.com/chris24elias">
+          <div class="icon-container" id="icon-2">
+            <i class="fab fa-github"></i>
+          </div>
+        </a>
+      </div>
+      <div class="text-container">
+        <div class="text">CHRIS ELIAS <span>&copy;2020</span></div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000,
+        once: true,
+      });
+    </script>
+  </body>
+</html>
